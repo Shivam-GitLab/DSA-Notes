@@ -1,6 +1,10 @@
+import java.util.*;
+
 public class HelloString {
     public static void main(String[] args) {
-        String st = "Shivam Jha";
+        Scanner sc = new Scanner(System.in);
+        // String st = "Shivam Jha";
+        String st = sc.nextLine();
         System.out.println(st);
     }
 
