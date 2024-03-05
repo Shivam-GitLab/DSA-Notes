@@ -2,10 +2,14 @@
 public class RotateNintyDegree {
     public static void main(String[] args) {
         int arr[][] = {
-                { 10, 20, 30, 40 },
-                { 50, 60, 70, 80 },
-                { 90, 10, 11, 12 },
-                { 13, 14, 15, 16 }
+                // { 10, 20, 30, 40 },
+                // { 50, 60, 70, 80 },
+                // { 90, 10, 11, 12 },
+                // { 13, 14, 15, 16 }
+                { 5, 1, 9, 11 },
+                { 2, 4, 8, 10 },
+                { 13, 3, 6, 7 },
+                { 15, 14, 12, 16 }
 
                 // Rotate 90 Degree
 
@@ -18,14 +22,14 @@ public class RotateNintyDegree {
     }
 
     static void rotateNintyDegree(int arr[][], int n) {
-        transposeInPlace(arr, 4, 4);
+        transposeInPlace(arr);
         for (int i = 0; i < n; i++) {
             reverseArr(arr[i]);
         }
 
     }
 
-    static void transposeInPlace(int arr[][], int r, int c) {
+    static void transposeInPlace(int arr[][]) {
         // int ar[][] = new int[3][3];
         for (int i = 0; i < arr.length; i++) {
 
