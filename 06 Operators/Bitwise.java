@@ -16,5 +16,6 @@ public class Bitwise {
 
         System.out.println(4 + 2 + "ABC"); // 6ABC
         System.out.println("ABC" + 4 + 2); // ABC42
+
     }
 }
