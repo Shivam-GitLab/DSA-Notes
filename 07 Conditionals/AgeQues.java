@@ -6,16 +6,14 @@ public class AgeQues {
         System.out.print("Enter Age = ");
         int age = sc.nextInt();
 
-        if(age<12){
+        if (age < 12) {
             System.out.println("Child");
-        }
-        else if(age>12 && age<18){
+        } else if (age >= 12 && age < 18) {
             System.out.println("Teenager");
-        }
-        else{
+        } else {
             System.out.println("Adult");
         }
-      sc.close();
+        sc.close();
     }
 
 }
